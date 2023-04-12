@@ -1,0 +1,817 @@
+body {
+
+background-color: white;
+
+
+}
+
+
+
+/* Navbar */
+
+
+.navbar1  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.84);
+  }
+  
+  .navbar1 li {
+    float: right;
+  }
+ 
+ 
+  .navbar1 a {
+    display: flex;
+    color: rgb(255,191,44);
+
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  /* header */
+
+.header {
+
+width:100%;
+height: 480px;
+}
+
+
+
+/* sliders */
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  
+
+  /* calender */
+
+.calender
+{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+background-image: url(B2.png);   
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000 ;
+    display: inline-block;
+margin: 60px;    
+}
+
+
+input {
+
+    display: none;
+
+}
+
+
+.d1
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+label
+{
+    color: white;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ;
+    transition-timing-function: ease-in-out;
+}
+
+
+button:hover
+{
+    background: #6d44b8;
+}
+
+.prayers
+{
+    height: 400px;
+    background: #eee;
+    border-radius: 60% /10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+.prayers label
+{
+    color: rgb(5, 5, 5);
+    transform:scale(.6);
+}
+#check1:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check1:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check1:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check2:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check2:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check2:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check3:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check3:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check3:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check4:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check4:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check4:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check5:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check5:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check5:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check6:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check6:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check6:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check7:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check7:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check7:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check8:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check8:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check8:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check9:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check9:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check9:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check10:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check10:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check10:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check11:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check11:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check11:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check12:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check12:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check12:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check13:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check13:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check13:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check14:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check14:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check14:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check15:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check15:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check15:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+
+
+#check16:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check16:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check16:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check17:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check17:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check17:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+#check18:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check18:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check18:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+
+#check19:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check19:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check19:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check20:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check20:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check20:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+
+#check21:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check21:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check21:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check22:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check22:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check22:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check23:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check23:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check23:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check24:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check24:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check24:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check25:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check25:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check25:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check26:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check26:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check26:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+
+#check27:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check27:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check27:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check28:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check28:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check28:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+#check29:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check29:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check29:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+#check30:checked ~ .prayers
+{
+    transform: translateY(-350px);
+}
+#check30:checked ~ .prayers label
+{
+    transform:scale(1);
+}
+#check30:checked ~ .d1 label
+{
+    transform:scale(.6 );
+}
+
+
+ .calender p {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(255,191,44);
+    }
+
+
+    .demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
+
+
+
+
+
+    /* إعدادات الفوتر */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* إعدادات الروابط في الفوتر */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* إعدادات الروابط عند التحويط عليها */
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* إعدادات الشعار في الفوتر */
+  
+  /* إعدادات الملخص في الفوتر */
+  .footer-summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* إعدادات قائمة الروابط في الفوتر */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links li {
+    display: inline;
+  }
+  
+  .footer-links li:not(:last-child)::after {
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  /* إعدادات حقوق النشر في الفوتر */
+  .footer-copyright {
+    font-size: 12px;
+  }
+  /* _____________________________________اعدادات المدونة________________ */
+  .box {
+    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220vh;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  .w {
+  
+    width: 90%;
+    height: 200vh;
+  background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+    justify-content: center;
+    margin-left: 50px;
+    /* box-shadow: 20px 20px 20px black; */
+    padding-top: 600px;
+  }
+  
+  .w1 {
+    width: 99%;
+    margin-left: 30px;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .w2 {
+    width: 99%;
+    margin-left: 30px;
+    height: 180px;
+    font-size: large;
+  
+    text-align: center;
+  }
+  
+  .w3 {
+    width: 99%;
+    margin-left: 30px;
+    height: 180px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .w4 {
+    width: 99%;
+    margin-left: 30px;
+    height: 180px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .w5 {
+    width: 99%;
+    margin-left: 30px;
+    height: 180px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .w6 {
+    width: 99%;
+    margin-left: 30px;
+    height: 180px;
+    text-align: center;
+    font-size: large;
+  }
+  @media screen and (max-width: 767px) {
+      /* قواعد الأسلوب الخاصة بالهواتف الذكية هنا */
+      .box {
+          justify-content: center;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 220vh;
+          text-align: center;
+          margin-top: -20px;
+        }
+        
+        .w {
+        
+          width: 90%;
+          height: 200vh;
+        background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+          justify-content: center;
+          margin-left: 50px;
+          /* box-shadow: 20px 20px 20px black; */
+          padding-top: 600px;
+        }
+        
+        .w1 {
+          width: 99%;
+          margin-left: 30px;
+          height: 150px;
+          text-align: center;
+          font-size: large;
+        }
+        
+        .w2 {
+          width: 99%;
+          margin-left: 30px;
+          height: 180px;
+          font-size: large;
+        
+          text-align: center;
+        }
+  
+  
+  
+  }
+  
+  /* أسلوب تكييف التصميم على شاشات الأجهزة اللوحية والشاشات الصغيرة */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      /* قواعد الأسلوب الخاصة بالأجهزة اللوحية والشاشات الصغيرة هنا */
+      .box {
+          justify-content: center;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 220vh;
+          text-align: center;
+          margin-top: -20px;
+        }
+        
+        .w {
+        
+          width: 90%;
+          height: 200vh;
+        background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+          justify-content: center;
+          margin-left: 10px;
+          /* box-shadow: 20px 20px 20px black; */
+          padding-top: 600px;
+        }
+        
+        .w1 {
+          width: 99%;
+          margin-left: 30px;
+          height: 150px;
+          text-align: center;
+          font-size: smaller;
+        }
+        
+        .w2 {
+          width: 99%;
+          margin-left: 30px;
+          height: 180px;
+          font-size: smaller;
+        
+          text-align: center;
+        }
+      }
+       
+  
+  /* أسلوب تكييف التصميم على شاشات الأجهزة اللوحية والشاشات الكبيرة */
+  @media screen and (max-width: 992px) {
+      /* قواعد الأسلوب الخاصة بالأجهزة اللوحية والشاشات الكبيرة هنا */
+      .box {
+          justify-content: center;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 220vh;
+          text-align: center;
+          margin-top: -20px;
+      }
+        
+        .w {
+        
+          width: 90%;
+          height: 200vh;
+        background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+          justify-content: center;
+          margin-left: 50px;
+          /* box-shadow: 20px 20px 20px black; */
+          padding-top: 600px;
+        }
+        
+        .w1 {
+          width: 99%;
+          margin-left: 30px;
+          height: 150px;
+          text-align: center;
+          font-size: large;
+        }
+        
+        .w2 {
+          width: 99%;
+          margin-left: 30px;
+          height: 180px;
+          font-size: large;
+        
+          text-align: center;
+        }
+      }
+        
+        
+      
+  

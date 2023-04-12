@@ -1,0 +1,50 @@
+body
+{
+   direction: rtl;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+.continarrecipe
+{
+width: 90%;
+margin: auto;
+height: 700px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 50px;
+}
+.continarrecipe div
+{
+    height: 300px;
+    box-shadow: 2px 5px 8px  white;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+.continarrecipe a
+{
+    text-decoration: none;
+}
+.recipebox1
+{
+
+    background-image: url(https://matbakharabi.com/wp-content/uploads/2020/07/wsi-imageoptim-6471-scaled-1-1140x500.jpg);
+background-size: cover;}
+.recipebox2
+{
+    background-image: url(https://media.gemini.media/img/Medium/2023/3/22/2023_3_22_22_15_13_987.jpg);
+    background-size: cover;}
+.recipebox3
+{
+    background-image: url(https://www.albawaba.com/sites/default/files/styles/d08_standard/public/2022-12/lettucechicken-BeFunky-project.jpg?h=8abcec71&itok=7_dYvL7D);
+    background-size: cover;}
+.recipebox4
+{
+    background-image: url(https://arab-turkey.com/wp-content/uploads/2023/04/%D8%AD%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg);
+    background-size: cover;}

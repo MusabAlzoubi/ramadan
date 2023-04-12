@@ -1,0 +1,66 @@
+body{
+    direction: rtl;
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+
+}
+.advice-header h2{
+    text-align: center;
+    width: 300px;
+    margin-right: 40%;
+    color: rgb(255,191,44);
+}
+.advice-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.advice-text{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 10px  rgba(255, 192, 44, 0.53) ;
+    margin: auto;
+margin-bottom: 50px;
+position: relative;
+    width: 40%;
+}
+.advice-text p{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.advice-text h3{
+    text-align: center;
+    color: white;
+}
+.advice-image{
+        display: block;
+        width: 100%;
+        height: 300px;
+}
+.advice-text:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:  rgba(12, 12, 12, 0.541);
+}
+@media screen and (max-width: 1050px){
+    .advice-text{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 530px){
+    .advice-text{
+        width: 75%;
+    }
+}

@@ -1,0 +1,160 @@
+
+.allrecipe
+{
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 50px;
+    width: 95%;
+    margin: auto;
+   
+
+}
+.recipehead
+{
+    text-align: center;
+}
+.recipe1
+{
+    /* width: 350px; */
+    height: 350px;
+    overflow: hidden;
+    background: url(https://www.foodtodayeg.com/Content/Upload/large/120232212413871717929.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px #000 ;
+}
+.recipe2
+{
+    /* width: 350px; */
+    height: 350px;
+    overflow: hidden;
+    background: url(https://yummy.awicdn.com/site-images/sites/default/files/prod/recipe/e/1/383025/776b6017b2c4ceab96a3d96f99f53aeb909e1971-091220070609.jpg?preset=v3.0_1200xDYN&save-png=1&rnd=1519151RND220215) ;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px #000 ;
+}
+
+.recipe3
+{
+    /* width: 350px; */
+    height: 350px;
+    overflow: hidden;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlt6Mr5Z61qbc-tAfHrXgo2roPVaac5BQIGQ&usqp=CAU) ;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px #000 ;
+}
+.recipe4
+{
+    /* width: 350px; */
+    height: 350px;
+    overflow: hidden;
+    background: url(https://kitchen.sayidaty.net/uploads/small/b5/b59e92dcec3a53710c6ff754f0c705d7_w750_h750.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px #000 ;
+}
+#check
+{
+    display: none;
+}
+#check1{ display: none;}
+#check2{ display: none;}
+#check3{ display: none;}
+
+.recipename
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.recipelabel
+{
+
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 8px 7px 8px black;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ;
+    transition-timing-function: ease-in-out;
+    font-family: 'Cairo', sans-serif;
+}
+
+.recipeprepare
+{
+    height: 450px;
+    background: #eee;
+    border-radius: 60% /10%;
+    transform: translateY(-170px);
+    transition: .8s ease-in-out;
+}
+.recipeprepare label
+{
+    color: #000;
+    font-size: 45px;
+    transform:scale(.6);
+    font-family: 'Cairo', sans-serif;
+}
+/* recipe 1 */
+#check:checked ~ .recipeprepare
+{
+    transform: translateY(-400px);
+}
+#check:checked ~ .recipeprepare label
+{
+    transform:scale(1);
+}
+#check:checked ~ .recipename label
+{
+    transform:scale(.6 );
+}
+
+/* recipe 2 */
+#check1:checked ~ .recipeprepare
+{
+    transform: translateY(-400px);
+}
+#check1:checked ~ .recipeprepare label
+{
+    transform:scale(1);
+}
+#check1:checked ~ .recipename label
+{
+    transform:scale(.6 );
+}
+/* recipe 3 */
+#check2:checked ~ .recipeprepare
+{
+    transform: translateY(-400px);
+}
+#check2:checked ~ .recipeprepare label
+{
+    transform:scale(1);
+}
+#check2:checked ~ .recipename label
+{
+    transform:scale(.6 );
+}
+/* recipe 4 */
+#check3:checked ~ .recipeprepare
+{
+    transform: translateY(-400px);
+}
+#check3:checked ~ .recipeprepare label
+{
+    transform:scale(1);
+}
+#check3:checked ~ .recipename label
+{
+    transform:scale(.6 );
+}
+
+.recipelist
+{
+    direction: rtl;
+}

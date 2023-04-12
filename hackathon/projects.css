@@ -1,0 +1,249 @@
+/* إعدادات الفوتر */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* إعدادات الروابط في الفوتر */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* إعدادات الروابط عند التحويط عليها */
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* إعدادات الشعار في الفوتر */
+
+/* إعدادات الملخص في الفوتر */
+.footer-summary {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* إعدادات قائمة الروابط في الفوتر */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li:not(:last-child)::after {
+  margin: 0 10px;
+  color: #fff;
+}
+
+/* إعدادات حقوق النشر في الفوتر */
+.footer-copyright {
+  font-size: 12px;
+}
+/* _____________________________________اعدادات المدونة________________ */
+.box {
+  justify-content: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220vh;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.w {
+
+  width: 90%;
+  height: 200vh;
+background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+  justify-content: center;
+  margin-left: 50px;
+  /* box-shadow: 20px 20px 20px black; */
+  padding-top: 600px;
+}
+
+.w1 {
+  width: 99%;
+  margin-left: 30px;
+  height: 150px;
+  text-align: center;
+  font-size: large;
+}
+
+.w2 {
+  width: 99%;
+  margin-left: 30px;
+  height: 180px;
+  font-size: large;
+
+  text-align: center;
+}
+
+.w3 {
+  width: 99%;
+  margin-left: 30px;
+  height: 180px;
+  text-align: center;
+  font-size: large;
+}
+
+.w4 {
+  width: 99%;
+  margin-left: 30px;
+  height: 180px;
+  text-align: center;
+  font-size: large;
+}
+
+.w5 {
+  width: 99%;
+  margin-left: 30px;
+  height: 180px;
+  text-align: center;
+  font-size: large;
+}
+
+.w6 {
+  width: 99%;
+  margin-left: 30px;
+  height: 180px;
+  text-align: center;
+  font-size: large;
+}
+@media screen and (max-width: 767px) {
+    /* قواعد الأسلوب الخاصة بالهواتف الذكية هنا */
+    .box {
+        justify-content: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220vh;
+        text-align: center;
+        margin-top: -20px;
+      }
+      
+      .w {
+      
+        width: 90%;
+        height: 200vh;
+      background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+        justify-content: center;
+        margin-left: 50px;
+        /* box-shadow: 20px 20px 20px black; */
+        padding-top: 600px;
+      }
+      
+      .w1 {
+        width: 99%;
+        margin-left: 30px;
+        height: 150px;
+        text-align: center;
+        font-size: large;
+      }
+      
+      .w2 {
+        width: 99%;
+        margin-left: 30px;
+        height: 180px;
+        font-size: large;
+      
+        text-align: center;
+      }
+
+
+
+}
+
+/* أسلوب تكييف التصميم على شاشات الأجهزة اللوحية والشاشات الصغيرة */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* قواعد الأسلوب الخاصة بالأجهزة اللوحية والشاشات الصغيرة هنا */
+    .box {
+        justify-content: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220vh;
+        text-align: center;
+        margin-top: -20px;
+      }
+      
+      .w {
+      
+        width: 90%;
+        height: 200vh;
+      background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+        justify-content: center;
+        margin-left: 10px;
+        /* box-shadow: 20px 20px 20px black; */
+        padding-top: 600px;
+      }
+      
+      .w1 {
+        width: 99%;
+        margin-left: 30px;
+        height: 150px;
+        text-align: center;
+        font-size: smaller;
+      }
+      
+      .w2 {
+        width: 99%;
+        margin-left: 30px;
+        height: 180px;
+        font-size: smaller;
+      
+        text-align: center;
+      }
+    }
+     
+
+/* أسلوب تكييف التصميم على شاشات الأجهزة اللوحية والشاشات الكبيرة */
+@media screen and (max-width: 992px) {
+    /* قواعد الأسلوب الخاصة بالأجهزة اللوحية والشاشات الكبيرة هنا */
+    .box {
+        justify-content: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220vh;
+        text-align: center;
+        margin-top: -20px;
+    }
+      
+      .w {
+      
+        width: 90%;
+        height: 200vh;
+      background-image: url(Marhaban_Ya_Ramadan_Poster.png);
+        justify-content: center;
+        margin-left: 50px;
+        /* box-shadow: 20px 20px 20px black; */
+        padding-top: 600px;
+      }
+      
+      .w1 {
+        width: 99%;
+        margin-left: 30px;
+        height: 150px;
+        text-align: center;
+        font-size: large;
+      }
+      
+      .w2 {
+        width: 99%;
+        margin-left: 30px;
+        height: 180px;
+        font-size: large;
+      
+        text-align: center;
+      }
+    }
+      
+      
+    
