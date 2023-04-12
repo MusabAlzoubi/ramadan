@@ -87,7 +87,7 @@
 
 .recipeprepare
 {
-    height: 450px;
+    height: 500px;
     background: #eee;
     border-radius: 60% /10%;
     transform: translateY(-170px);
@@ -103,7 +103,7 @@
 /* recipe 1 */
 #check:checked ~ .recipeprepare
 {
-    transform: translateY(-400px);
+    transform: translateY(-450px);
 }
 #check:checked ~ .recipeprepare label
 {
@@ -117,7 +117,7 @@
 /* recipe 2 */
 #check1:checked ~ .recipeprepare
 {
-    transform: translateY(-400px);
+    transform: translateY(-450px);
 }
 #check1:checked ~ .recipeprepare label
 {
@@ -130,7 +130,7 @@
 /* recipe 3 */
 #check2:checked ~ .recipeprepare
 {
-    transform: translateY(-400px);
+    transform: translateY(-450px);
 }
 #check2:checked ~ .recipeprepare label
 {
@@ -143,7 +143,7 @@
 /* recipe 4 */
 #check3:checked ~ .recipeprepare
 {
-    transform: translateY(-400px);
+    transform: translateY(-450px);
 }
 #check3:checked ~ .recipeprepare label
 {
